@@ -83,7 +83,7 @@ def downPath():
     path = filedialog.askdirectory()
     return path
 
-print(vid.title)
+#print(vid.title)
 print("Choose the video format:\n 1.1080p\n 2.720p\n 3.360p\n 4.240p\n 5.144p\n 6.Audio only(160 kbps)\n 7.Audio only(128 kbps)\n 8.Audio only(70 kbps)\n 9.Audio only(50 kbps)")
 quality = int(input())
 result = getVideos(quality)
